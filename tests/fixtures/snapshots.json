@@ -1,0 +1,42 @@
+{
+  "stellar": {
+    "chain": "stellar",
+    "timestamp": "2024-01-01T00:00:00+00:00",
+    "tx_count_24h": 500000,
+    "tps_avg": 5.8,
+    "node_count": 95,
+    "extra": {"ledger_close_time_s": 5.5}
+  },
+  "bitcoin": {
+    "chain": "bitcoin",
+    "timestamp": "2024-01-01T00:00:00+00:00",
+    "tx_count_24h": 350000,
+    "tps_avg": 4.05,
+    "node_count": 0,
+    "extra": {"hashrate_eh_s": 600.0}
+  },
+  "ethereum": {
+    "chain": "ethereum",
+    "timestamp": "2024-01-01T00:00:00+00:00",
+    "tx_count_24h": 1100000,
+    "tps_avg": 12.7,
+    "node_count": 1000000,
+    "extra": {"validator_count": 1000000}
+  },
+  "solana": {
+    "chain": "solana",
+    "timestamp": "2024-01-01T00:00:00+00:00",
+    "tx_count_24h": 50000000,
+    "tps_avg": 578.0,
+    "node_count": 1700,
+    "extra": {}
+  },
+  "cardano": {
+    "chain": "cardano",
+    "timestamp": "2024-01-01T00:00:00+00:00",
+    "tx_count_24h": 70000,
+    "tps_avg": 0.81,
+    "node_count": 3000,
+    "extra": {"active_pool_count": 3000}
+  }
+}

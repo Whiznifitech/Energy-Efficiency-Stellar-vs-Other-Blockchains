@@ -1,0 +1,12 @@
+.env
+.env.local
+.venv/
+__pycache__/
+*.pyc
+data/*.json
+data/*.csv
+!data/samples/
+.ruff_cache/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
