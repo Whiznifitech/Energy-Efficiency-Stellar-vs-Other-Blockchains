@@ -14,7 +14,6 @@ TODO (complexity: medium):
 """
 from datetime import datetime, timezone
 
-import requests
 
 from models import ChainSnapshot
 

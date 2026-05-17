@@ -1,14 +1,12 @@
 """Unit tests for energy estimators."""
 import json
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
-import pytest
 
 from models import ChainSnapshot
 from estimators import chains as chain_estimators
 from estimators.bottom_up import BottomUpParams, estimate as bottom_up
-from estimators.top_down import TopDownParams, estimate as top_down
 
 FIXTURES = json.loads(
     (Path(__file__).parent / "fixtures" / "snapshots.json").read_text()
